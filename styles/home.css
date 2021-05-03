@@ -1,1 +1,10 @@
 /* add home page styles here */
+p {
+    display: inline;
+    margin: 0;
+    padding: 0%;
+}
+img {
+    max-height: 500px;
+    max-width: 500px;
+}

@@ -1,61 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <title>Brass Mad Libs</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
-</head>
-
-<body>
-    <section>
-        Form
+  <body>
+    <section id="section-one">
+        <input type="text" placeholder="noun" id="noun-one">
+        <input type="text" placeholder="noun" id="noun-two">
+        <input type="text" placeholder="noun" id="noun-three">
+        <input type="text" placeholder="verb" id="verb-one">
+        <input type="text" placeholder="verb" id="verb-two">
+        <input type="text" placeholder="adjective" id="adj-one">
+        <input type="text" placeholder="adjective" id="adj-two">
+        <input type="button" value="create your madlib" id="button">
     </section>
-    <section>
-        <span>
-            words to change
-        </span>
-        Say <span id='alonzo-one'>baby</span>, say <span id='alonzo-two'>baby</span>, say <span id='alonzo-three'>baby</span>
-
-What you doin'? (What you doin'?)
-Where you at? (Where you at?)
-Oh, you got plans? (You got plans?)
-Don't say that (Shut yo' trap)
-
-I'm sippin' <span id='branden-one'>wine</span> (Sip, sip)
-In a robe (Drip, drip)
-I look too good (Look too good)
-To be alone (Woohoo)
-
-My house clean, uh (House clean)
-My pool <span id='dimitra-three'>warm</span> (Pool <span id='dimitra-four'>warm</span>)
-Just shaved (Smooth like a newborn)
-
-We should be <span id='dimitra-one'>dancing</span>, <span id='dimitra-two'>romancing</span>, in the east wing
-And the west wing of this mansion, what's happenin'?
-
-I ain't playin' no games, every word
-That I say is coming <span id='dj-one'>straight</span> from the heart, uh
-So if you tryna lay in these arms
-
-I'ma leave the <span id='madden-one'>door</span>open
-(I'ma leave the <span id='madden-two'>door</span> open)
-I'ma leave the <span id='madden-three'>door</span> open, girl
-(I'ma leave the <span id='madden-four'>door</span> open, hopin')
+    <section id="section-two">
+      Say <p id="alonzo-one">baby</p>, say
+      <p id="alonzo-two">baby</p>, say <p id="alonzo-three">baby</p>
+      What you doin'? (What you doin'?) Where you at? (Where you at?) Oh, you
+      got plans? (You got plans?) Don't say that (Shut yo' trap) I'm sippin'
+      <p id="branden-one">wine</p> (Sip, sip) In a robe (Drip, drip) I
+      look too good (Look too good) To be alone (Woohoo) My house clean, uh
+      (House clean) My pool <p id="dimitra-three">warm</p> (Pool
+      <p id="dimitra-four">warm</p>) Just shaved (Smooth like a newborn)
+      We should be <p id="dimitra-one">dancing</p>,
+      <p id="dimitra-two">romancing</p>, in the east wing And the west
+      wing of this mansion, what's happenin'? I ain't playin' no games, every
+      word That I say is coming <p id="dj-one">straight</p> from the
+      heart, uh So if you tryna lay in these arms I'ma leave the
+      <p id="madden-one">door</p>open (I'ma leave the
+      <p id="madden-two">door</p> open) I'ma leave the
+      <p id="madden-three">door</p> open, girl (I'ma leave the
+      <p id="madden-four">door</p> open, hopin')
     </section>
-    <aside>
-        <h5>
-            Title
-        </h5>
-        <img src=""/>
+    <aside id="aside">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/810P3Zp+E0L.jpg" id="cover" />
     </aside>
-
     <script type="module" src="./app.js"></script>
-</body>
-
+  </body>
 </html>
